@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.banner {
+    background:linear-gradient(#5ba7c5,#70b2cc,#98C8DB,#ADD3E2);
+    height:25vw;
+    width:100%;
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-right: 12px; 
+
+}
+
+.ccuadro {
+    
+    border-style: solid;
+    border-width: 1vw;
+    border-color:mintcream;
+    height:23vw;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+p {
+    font-size:1em; 
+    font-family:"Caudex";
+    line-height: 1.8;
+}
+
+.product {
+    
+    color:#5ba7c5;
+    
+}
+
+h1 {
+    color: mintcream;
+    font-weight: 50%;
+    max-width: 450px;
+    font-size:8vw;
+    font-family: "Play";
+
+}
+
+h3 {
+    font-size: x-large;
+    color: #5ba7c5;
+    font-family: "Play";
+}
+
+
+strong {
+    color:#5BA7C5
+}
+
+
+.productos {
+
+    padding-top:7vw;
+    padding-bottom:1vh;
+    width:100%;
+    overflow-x:scroll;
+    
+
+
+}
+
+.product {
+    
+    height:auto;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.centro {
+    padding: 2vw;
+    text-align: left;
+}
+
+
+.historia {
+    height: 50vh;
+    background:linear-gradient(to bottom right,#5ba7c5,#70b2cc,#98C8DB);
+    margin-top:1vw;
+    
+
+}
+
+.caracter {
+    float: center;
+    height:auto;
+    width: 14vw;
+    
+}
+
+.tablapro {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:mintcream;
+    justify-content: center;
+    width: 200%; 
+    height:50vh; 
+}
+
+.tablapro > div {
+    background-color: #f1f1f1;
+    margin: 0.1vw;
+    padding: 1.5vw;
+    width: 100%;
+    }
+
+
+.explicacion {
+    margin-top:4vw;
+    margin-bottom:8vw;
+    height: 50vh;
+    background-color: #f1f1f1;
+    padding: 2vw;
+    text-align: left;
+
+}
+
+.circularidad {
+    float: right;
+    width: 30%;
+    height: auto;
+
+}
+
+.espacios {
+    height:8vw;
+    width:100%;
+
+}
+
+.aparte {
+
+    margin-top:4vw;
+    margin-bottom:8vw;
+    height: 50vh;
+    background-color: #f1f1f1;
+    padding: 2vw;
+    text-align: left;
+
+}
+
+.Izquierda-final {
+    width: 50%;
+    float: left;
+    padding-top: 15px;
+    padding-left: 20px;
+    
+   
+}
+
+.Derecha-final {
+    width: 50%;
+    float: right;
+    padding-top: 15px;
+    padding-left: 20px;
+    height:30px;
+
+}
+
+.cuadro-derecha {
+    height:40vh;
+    background-image: url("recursos/caracter.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+#wsapp {
+    max-width: 35%;
+    max-height:auto;
+}
+
+#final {
+    color:mintcream;
+}
+
+.foto {
+    float: right;
+    height:auto;
+    width:30%;
+}
+
+a {
+    text-decoration: none;
+    color:#5BA7C5;
+
+}
+
+a:hover {
+    color: #ADD3E2;
+}
+
+/*
+scroll
+*/
+
+* {
+scrollbar-width: 18px;
+scrollbar-color: #a7d0e1 #ffffff;
+}
+
+
+*::-webkit-scrollbar {
+width: 18px;
+}
+
+*::-webkit-scrollbar-track {
+background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+background-color: #ADD3E2;
+border-radius: 10px;
+border: 3px solid #ffffff;
+}
+
+
+/*iconos */ 
+
+.fa {
+    padding: 1.8vw;
+    font-size: 10vh;
+    width: 8vw;
+    border-radius: 10%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 1px;
+  }
+  
+
+  .fa:hover {
+    opacity: 0.3;
+    color:white;
+  }
+  
+  
+  .fa-pinterest {
+    background: white;
+    color: black;
+  }
+  
+  .fa-youtube {
+    background: white;
+    color: black;
+  }
+
+  .fa-instagram {
+    background:white;
+    color: black;
+  }
+  
+
+.texto {
+    color: #5BA7C5;
+    text-align: center;
+    
+}
+
+#inside {
+    color: black;
+}
+
+
