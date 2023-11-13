@@ -179,7 +179,7 @@ strong {
 
 .cuadro-derecha {
     height:40vh;
-    background-image: url("recursos/caracter.png");
+    background-image: url("caracter.png");
     background-position: bottom right;
     background-repeat: no-repeat;
 }
